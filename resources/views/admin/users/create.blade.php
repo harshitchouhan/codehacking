@@ -55,10 +55,10 @@
                     </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">File input</label>
-                  <input type="file" id="exampleInputFile" />
+                  <label for="exampleInputFile">Choose photo</label>
+                  <input type="file" id="exampleInputFile" name="photo_id" accept="image/*"/>
 
-                  <p class="help-block">Example block-level help text here.</p>
+                  <p class="help-block">Choose a photo as your profile picture.</p>
                 </div>
               </div>
               <div class="box-footer">

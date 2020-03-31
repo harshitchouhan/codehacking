@@ -30,6 +30,7 @@ class UsersRequest extends FormRequest
             'is_active' => 'required',
             'password' => 'required',
             'confirmPassword' => 'required',
+            // 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
         ];
     }
 }
