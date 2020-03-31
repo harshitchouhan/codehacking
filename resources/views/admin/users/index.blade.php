@@ -29,7 +29,7 @@
                     <th>Name</th>
                     <th>Role</th>
                     <th>Email</th>
-                    <th>Active</th>
+                    <th>Staus</th>
                     <th>Created at</th>
                   </tr>
                 </thead>
@@ -41,7 +41,7 @@
                                 <td>{{$user->name}}</td>
                                 <td>{{$user->role->name}}</td>
                                 <td>{{$user->email}}</td>
-                                <td>{{$user->is_active == 1 ? 'Yes' : 'No'}}</td >
+                                <td>{{$user->is_active == 1 ? 'Active' : 'Inactive'}}</td >
                                 <td>{{$user->created_at->toDayDateTimeString()}}</td >
                             </tr>
                         @endforeach

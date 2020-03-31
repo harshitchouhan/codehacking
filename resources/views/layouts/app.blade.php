@@ -421,7 +421,7 @@
               <i class="fa fa-th"></i> <span>Dashboard</span>
             </a>
           </li>
-        <li class="treeview {{ (request()->routeIs('users.index')) ? 'active menu-open' : '' }}">
+        <li class="treeview {{ (request()->routeIs('users.index')) || (request()->routeIs('users.create')) ? 'active menu-open' : '' }}">
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Users</span>
