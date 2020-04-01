@@ -24,3 +24,4 @@ Route::get('/admin', function() {
 });
 
 Route::resource('admin/users', 'Admin\UsersController')->middleware('admin');
+Route::resource('admin/posts', 'Admin\PostsController')->middleware('admin');
